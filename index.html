@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href = "index.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "toppane">
+            <h1 class = "animate__animated animate animate__lightSpeedInRight">Grade 9 chemistry</h1>
+            <svg id = "atom" width = "300" height = "300" viewBox = "0 0 300 300">
+                <circle cx = "150" cy = "150" r = "5" fill = "white" stroke = "white"/>
+                <path id="shellPath1" fill="none" stroke = "white"  stroke-width="1"
+                  d="m 199, 130 a 55,35 0 1,0 1,1 z"/>
+                  <path id="Path1" fill="none" stroke   stroke-width="1"
+                  d="m 0, 0 a 55,35 0 1,0 1,1 z"/>
+                 <path id="shellPath2" fill="none" stroke = "white"  stroke-width="1"
+                  d="m 170, 105 a 35,55 0 1,0 1,1 z"/>
+                   <path id="Path2" fill="none" stroke = "none"  stroke-width="1"
+                  d="m 0, 0 a 35,55 0 1,0 1,1 z"/>
+                
+                   <path id="shellPath3" fill="none" stroke = "white"  stroke-width="1"
+                  d="m 200, 115 a 35,60 55 1,0 1,1 z"/>
+                     <path id="Path3" fill="none" stroke = "none"  stroke-width="1"
+                  d="m 0, 0 a 35,60 55 1,0 1,1 z"/>
+                     <path id="shellPath4" fill="none" stroke = "white"  stroke-width="1"
+                  d="m 170, 125 a 35,60 140 1,0 1,1 z"/>
+                       <path id="Path4" fill="none" stroke = "none"  stroke-width="1"
+                  d="m 0, 0 a 35,60 140 1,0 1,1 z"/>
+                <circle cx = "199" cy = "130" r = "3" fill = "white" id = "electron1"/>
+                  <circle cx = "170" cy = "105" r = "3" fill = "lightgreen" id = "electron2"/>
+                  <circle cx = "200" cy = "115" r = "3" fill = "blue" id = "electron3"/>
+                  <circle cx = "170" cy = "125" r = "3" fill = "red" id = "electron4"/>
+                <animateMotion
+                               xlink:href = "#electron1"
+                               begin = "0s"
+                               dur = "2s"
+                               repeatCount = "indefinite"
+                              
+                               >
+                  <mpath xlink:href = "#Path1"/>
+                </animateMotion>
+                
+                  <animateMotion
+                               xlink:href = "#electron2"
+                               begin = "0s"
+                               dur = "2s"
+                               repeatCount = "indefinite"
+                               >
+                  <mpath xlink:href = "#Path2"/>
+                </animateMotion>
+                
+                <animateMotion
+                               xlink:href = "#electron3"
+                               begin = "0s"
+                               dur = "2s"
+                               repeatCount = "indefinite"
+                               >
+                  <mpath xlink:href = "#Path3"/>
+                </animateMotion>
+                
+                <animateMotion
+                               xlink:href = "#electron4"
+                               begin = "0s"
+                               dur = "2s"
+                               repeatCount = "indefinite"
+                               >
+                  <mpath xlink:href = "#Path4"/>
+                </animateMotion>
+              
+                
+              </svg>
+            <a class = "front" href="code/atoms.html">Atom and its structure</a>
+        </div>
+       
+
+    </div>
+</body>
+</html>

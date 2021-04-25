@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "periodictable.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <div class ="toppane">
+            <div class = "heading">
+                <div class = "back">Periodic table</div>
+            </div>
+            <p> Below is the periodic table, showing you the different categories into which elements can be divided. You have metals, non-metals, metalloids and synthetic elements as well.</p>
+    <p>These are not the only groups in which you can divide the elements. Each column in the table shows you a group of elements which have certain similar charactertics. </p>
+    <p>For example, elements in the last column of the periodic table belong to group 0. The elements in this group are known as noble gases. They show very little chemical reactivity and have low boiling points.</p>
+    <p>In fact Helium has the lowest boiling point amonng all elements.</p>
+<svg id = "periodic_table" width = "350" height = "200" viewBox = " 0 0 350 200">
+  <rect x = "50" y = "50" height = "30" width = "30" fill = "lightpink"/>
+  <text x = "30" y = "100" font-size = 15px>Non-metals</text>
+  <rect x = "120" y = "50" height = "30" width = "30" fill = "lightblue"/>
+  <text x = "110" y = "100" font-size = 15px>Mettaloids</text>
+  <rect x = "190" y = "50" height = "30" width = "30" fill = "lightgreen"/>
+  <text x = "190" y = "100" font-size = 15px>Metals</text>
+  <rect x = "260" y = "50" height = "30" width = "30" fill = "yellow"/>
+  <text x = "250" y = "100" font-size = 15px> Synthetic </text>
+</svg>
+<div id = "grid-container">
+ <div class = "griditem-nm"><div class = "symbol">H</div>
+ <div class = "name">Hydrogen</div>
+ </div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-nm">
+    <div class = "symbol">He</div>
+    <div class = "name">Helium</div>
+    </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Li</div>
+          <div class = "name">Lithium</div>
+        </div>
+  <div class = "griditem-m">
+    <div class = "symbol">Be</div>
+      <div class = "name">Berilium</div>
+       </div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-me">
+        <div class = "symbol">B</div>
+     <div class = "name">Boron</div>
+       </div>
+  <div class = "griditem-nm">
+        <div class = "symbol">C</div>
+     <div class = "name">Carbon</div>
+       </div>
+  <div class = "griditem-nm">
+        <div class = "symbol">N</div>
+     <div class = "name">Nitrogen</div>
+       </div>
+  <div class = "griditem-nm">
+        <div class = "symbol">O</div>
+     <div class = "name">Oxygen</div>
+       </div>
+  <div class = "griditem-nm">F
+        <div class = "symbol">F</div>
+     <div class = "name">Flourine</div>
+       </div>
+  <div class = "griditem-nm">
+        <div class = "symbol">Ne</div>
+     <div class = "name">Neon</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Na</div>
+     <div class = "name">Sodium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Mg</div>
+     <div class = "name">Magnesium</div>
+       </div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-m">
+        <div class = "symbol">Al</div>
+     <div class = "name">Aluminium</div>
+       </div>
+  <div class = "griditem-me">
+        <div class = "symbol">Si</div>
+     <div class = "name">Silicon</div>
+       </div>
+  <div class = "griditem-nm">
+        <div class = "symbol">P</div>
+     <div class = "name">Phosphorus</div>
+       </div>
+  <div class = "griditem-nm">
+        <div class = "symbol">S</div>
+     <div class = "name">Sulfur</div>
+       </div>
+  <div class = "griditem-nm">
+        <div class = "symbol">Cl</div>
+     <div class = "name">Chlorine</div>
+       </div>
+  <div class = "griditem-nm">
+        <div class = "symbol">Ar</div>
+     <div class = "name">Argon</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">K</div>
+     <div class = "name">Potassium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Ca</div>
+     <div class = "name">Calcium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Sc</div>
+     <div class = "name">Scandium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Ti</div>
+     <div class = "name">Titanium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">V</div>
+     <div class = "name">Vanadium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Cr</div>
+     <div class = "name">Chromium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Mn</div>
+     <div class = "name">Manganese</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Fe</div>
+     <div class = "name">Iron</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Co</div>
+     <div class = "name">Cobalt</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Ni</div>
+     <div class = "name">Nickel</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Cu</div>
+     <div class = "name">Copper</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Zn</div>
+     <div class = "name">Zinc</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Ga</div>
+     <div class = "name">Gallium</div>
+       </div>
+  <div class = "griditem-me">
+        <div class = "symbol">Ge</div>
+     <div class = "name">Germanium</div>
+       </div>
+  <div class = "griditem-me">
+        <div class = "symbol">As</div>
+     <div class = "name">Arsenic</div>
+       </div>
+  <div class = "griditem-nm">
+        <div class = "symbol">Se</div>
+     <div class = "name">Selenium</div>
+       </div>
+  <div class = "griditem-nm">
+        <div class = "symbol">Br</div>
+     <div class = "name">Bromine</div>
+       </div>
+  <div class = "griditem-nm">
+        <div class = "symbol">Kr</div>
+     <div class = "name">Krypton</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Rb</div>
+     <div class = "name">Rubidium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Sr</div>
+     <div class = "name">Strontium</div>
+       </div>
+
+  <div class = "griditem-m">
+        <div class = "symbol">Y</div>
+     <div class = "name">Yttrium</div>
+       </div>
+       <div class = "griditem-m">
+         <div class = "symbol">Zr</div>
+      <div class = "name">Zirconium</div>
+        </div>
+  <div class = "griditem-m">
+      <div class = "symbol">Nb</div>
+     <div class = "name">Niobium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Mo</div>
+     <div class = "name">Molybdenum</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Tc</div>
+     <div class = "name">Technetium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Ru</div>
+     <div class = "name">Ruthenium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Rh</div>
+     <div class = "name">Rhodium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Pd</div>
+     <div class = "name">Palladium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Ag</div>
+     <div class = "name">Silver</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Cd</div>
+     <div class = "name">Cadmium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">In</div>
+     <div class = "name">Indium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Sn</div>
+     <div class = "name">Tin</div>
+       </div>
+   <div class = "griditem-me">
+        <div class = "symbol">Sb</div>
+     <div class = "name">Antimony</div>
+       </div>
+  <div class = "griditem-me">
+        <div class = "symbol">Te</div>
+     <div class = "name">Tellurium</div>
+       </div><div class = "griditem-nm">
+        <div class = "symbol">I</div>
+     <div class = "name">Iodine</div>
+       </div>
+  <div class = "griditem-nm">
+        <div class = "symbol">Xe</div>
+     <div class = "name">Xenon</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Cs</div>
+     <div class = "name">Cesium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Ba</div>
+     <div class = "name">Barium</div>
+       </div>
+  <div class = "griditem-a">
+        <div class = "symbol"></div>
+     <div class = "name"></div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Hf</div>
+     <div class = "name">Hafnium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Ta</div>
+     <div class = "name">Tantalum</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">W</div>
+     <div class = "name">Tungsten</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Re</div>
+     <div class = "name">Rhenium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Os</div>
+     <div class = "name">Osmium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Ir</div>
+     <div class = "name">Iridium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Pt</div>
+     <div class = "name">Platinum</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Au</div>
+     <div class = "name">Gold</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Hg</div>
+     <div class = "name">Mercury</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Ti</div>
+     <div class = "name">Thallium</div>
+       </div>
+   <div class = "griditem-m">
+        <div class = "symbol">Pb</div>
+     <div class = "name">Lead</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Bi</div>
+     <div class = "name">Bismuth</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Po</div>
+     <div class = "name">Polonium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">At</div>
+     <div class = "name">Astatine</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Rn</div>
+     <div class = "name">Radon</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Fr</div>
+     <div class = "name">Francium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Ra</div>
+     <div class = "name">Radium</div>
+       </div>
+  <div class = "griditem-a">
+        <div class = "symbol"></div>
+     <div class = "name"></div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Rf</div>
+     <div class = "name">Rutherfordium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Db</div>
+     <div class = "name">Dubnium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Sg</div>
+     <div class = "name">Seaborgium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Bh</div>
+     <div class = "name">Bohrium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Hs</div>
+     <div class = "name">Hassium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Mt</div>
+     <div class = "name">Meitnerium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Ds</div>
+     <div class = "name">Darmstadium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Rg</div>
+     <div class = "name">Roentgenium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Cn</div>
+     <div class = "name">Copernicium</div>
+       </div>
+  <div class = "griditem-s">
+     <div class = "symbol">Nh</div>
+     <div class = "name">nihonium</div>
+    
+  </div>
+  <div class = "griditem-s">
+     <div class = "symbol">Fl</div>
+     <div class = "name">Flerovium</div>
+    
+  </div>
+  <div class = "griditem-s">
+     <div class = "symbol">Mc</div>
+     <div class = "name">Moscovium</div>
+    
+  </div>
+  <div class = "griditem-s">
+     <div class = "symbol">Lv</div>
+     <div class = "name">Livermorium</div>
+  </div>
+  <div class = "griditem-s">
+     <div class = "symbol">Ts</div>
+     <div class = "name">Tennessine</div>
+  </div>
+  <div class = "griditem-s">
+     <div class = "symbol">Og</div>
+     <div class = "name">Oganesson</div>
+  </div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-m">
+        <div class = "symbol">La</div>
+     <div class = "name">Lanthanum</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Ce</div>
+     <div class = "name">Cerium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Pr</div>
+     <div class = "name">Praseodymium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Nd</div>
+     <div class = "name">Neodymium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Pm</div>
+     <div class = "name">Promethium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Sm</div>
+     <div class = "name">Samarium</div>
+       </div>
+   <div class = "griditem-m">
+        <div class = "symbol">Eu</div>
+     <div class = "name">Europium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Gd</div>
+     <div class = "name">Gadolinium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Tb</div>
+     <div class = "name">Terbium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Dy</div>
+     <div class = "name">Dysprosium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Ho</div>
+     <div class = "name">Holmium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Er</div>
+     <div class = "name">Erbium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Tm</div>
+     <div class = "name">Thulium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Yb</div>
+     <div class = "name">Ytterbium</div>
+       </div>
+  <div class = "griditem-m">
+   <div class = "symbol">Lu</div>
+   <div class = "name">Lutetium</div>
+  </div>
+  <div class = "griditem-a"></div>
+     <div class = "griditem-a"></div>
+  <div class = "griditem-a"></div>
+  <div class = "griditem-s">
+        <div class = "symbol">Ac</div>
+     <div class = "name">Actinium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">Th</div>
+     <div class = "name">Thorium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Pa</div>
+     <div class = "name">Protactinium</div>
+       </div>
+  <div class = "griditem-m">
+        <div class = "symbol">U</div>
+     <div class = "name">Uranium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Np</div>
+     <div class = "name">Neptunium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Pu</div>
+     <div class = "name">Plutonium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Am</div>
+     <div class = "name">Americium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Cm</div>
+     <div class = "name">Curium</div>
+       </div>
+    <div class = "griditem-s">
+        <div class = "symbol">Bk</div>
+     <div class = "name">Berkelium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Cf</div>
+     <div class = "name">Californium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Es</div>
+     <div class = "name">Einsteinium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Fm</div>
+     <div class = "name">Fermium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">Md</div>
+     <div class = "name">Mendelevium</div>
+       </div>
+  <div class = "griditem-s">
+        <div class = "symbol">No</div>
+     <div class = "name">Nobelium</div>
+       </div>
+  <div class = "griditem-s">
+   <div class = "symbol">Lr</div>
+   <div class = "name">Lawrencium</div>
+
+  </div>
+  <div class = "griditem-a"></div>
+
+  
+</div>
+
+<p> Head on over to the next page to see what the atomic structure of some of these elements looks like.</p>
+<div class = "flex-container">
+    <div>
+      <object data = "arrow_animated.svg" type = "image/svg+xml" width = "100" height = "100"></object>
+    </div>
+    <div>
+      <a href = "atomicstructure.html">Atomic structure</a>
+    </div>
+    </div>
+        </div>
+    </div>
+</body>
+</html>

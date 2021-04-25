@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "toppane">
+            <div class = "heading">
+                <div class = "back">Bohr's model</div>
+            </div>
+            <p> One of the main objections to Rutherford's model was that the revolution of an electron around the nucelus is not expected to be stable. </p>
+            <p> This is because any particles that moves in a circular motion would accelerate. During acceleration particles, radiate energy and thus the revolving electron would eventually lose energy and fall into the nucelus. This mean that the atom's structure would be inherently unstable- which it is <b>not</b></p>
+            
+            <p> <b>Neils Bohr</b> - a Danish physicist suggested an alternative model for the atom. </p>
+            <p> According to Bohr's model:</p>
+            <div>
+            <ol>
+              <li>Only special discrete orbits are allowed inside the atom. These orbits are called <u> energy levels</u></li>
+              <br>
+              <li> When electrons are revolving in these discrete orbits, they do not radiate energy. </li>
+            </ol>
+            </div>
+            
+            <svg class = "final_electron" width = "300" height = "300" viewBox = " 0 0 300 300">
+              <rect height = "300" width = "300" fill = "#c7d59f"/>
+              <circle cx = "150" cy = "150" r = "5" fill = "blue" stroke = "black" stroke-width = "1"/>
+              <circle cx = "143" cy = "150" r = "5"
+                      fill = "blue" stroke = "black" stroke-width = "1"/>
+               <circle cx = "156" cy = "150" r = "5"
+                      fill = "yellow" stroke = "black" stroke-width = "1"/>
+               <circle cx = "145" cy = "145" r = "5"
+                      fill = "yellow" stroke = "black" stroke-width = "1"/>
+               <circle cx = "143" cy = "150" r = "5"
+                      fill = "blue" stroke = "black" stroke-width = "1"/>
+               <circle cx = "156" cy = "154" r = "5"
+                      fill = "blue" stroke = "black" stroke-width = "1"/>
+               <circle cx = "147" cy = "155" r = "5"
+                      fill = "yellow" stroke = "black" stroke-width = "1"/>
+               <circle cx = "154" cy = "142" r = "5"
+                      fill = "blue" stroke = "black" stroke-width = "1"/>
+              <circle id = "electron1" cx = "190" cy = "130" r = "4" fill = "black"/>
+            <path id="shell1" fill="none" stroke="black" stroke-width="1"
+                d="m 190, 130 a 50,35 0 1,0 1,1 z"/>
+              <circle id = "electron2" cx = "195" cy = "115" r = "4" fill = "black"/>
+              <path id="shellPath1" fill="none"  stroke-width="1"
+                d="m 0, 0 a 50,35 0 1,0 1,1 z"/>
+              <path id = "shell2" fill = "none" stroke = "black" stroke-width = "1" d = "m195,115 a 65 ,55 0 1, 0 1,1 z"/>
+               <path id="shellPath2" fill="none"  stroke-width="1"
+                d="m 0, 0 a 65,55 0 1,0 1,1 z"/>
+                <path id = "shell3" fill = "none" stroke = "black" stroke-width = "1" d = "m210,103 a 85 ,70 0 1, 0 1,1 z"/>
+              <path id = "shellPath3" fill = "none"  stroke-width = "1" d = "m0,0 a 85 ,70 0 1, 0 1,1 z"/>
+              <circle id = "electron3" cx = "210" cy = "103" r = "4" fill = "black"/>
+              
+              
+             <animateMotion 
+                       xlink:href="#electron1"
+                       dur="2s"
+                       begin="0s"
+                       fill="remove"
+                           repeatCount = "indefinite"
+                           id = "first"
+                       >
+              <mpath xlink:href="#shellPath1" />
+               </animateMotion>
+              
+               <animateMotion 
+                       xlink:href="#electron2"
+                       dur="2s"
+                       begin="0s"
+                       fill="remove"
+                           repeatCount = "indefinite"
+                           id = "second"
+                       >
+              <mpath xlink:href="#shellPath2" />
+               </animateMotion>
+              
+              <animateMotion 
+                       xlink:href="#electron3"
+                       dur="2s"
+                       begin="0s"
+                       fill="remove"
+                           repeatCount = "indefinite"
+                           id = "third"
+                       >
+              <mpath xlink:href="#shellPath3" />
+               </animateMotion>
+            
+            </svg>
+            
+    
+        </div>
+        <div class = "middlepane">
+            <p>Within the nucleus of an atom are protons and neutrons. Protons carry a positive charge, while neutrons have no charge.</p>
+            <p>Neutrons are present in the nucleus of all atoms except hydrogen.</p>
+            <p>In general, in an atom, the number of electrons is equal to the number of protons and the overall charge of the atom is neutral. Only when an atoms looses or gains an electron, does the atom acquire a charge. A charged atom is known as an <u>ion</u></p>
+            <p> The number of protons in an atom determine the atomic number of a chemical element. </p>
+            <p>The mass of an atom is essentially decided by the number of protons and neutrons. For example, carbon has 6 protons and 6 neutrons, so the mass of atom is 12u.</p>
+            <p>The unit for measuring atomic mass is <u>u</u>.</p>
+            <p>One u (unified mass) is equal to exactly 1/12th the mass of one atom of carbon-12.</p>
+            <p>This means the mass of all elements is measured relative to the mass of carbon-12.</p>
+            <p>Below you will find a table showing you the atomic number, number of protons, electrons and neutrons in some common elements.</p>
+            <table>
+              <tr>
+                <th>Element</th>
+              <th>Atomic number</th>
+              <th>Protons</th>
+              <th>Neutrons</th>
+              <th>Electrons</th>
+    
+              </tr>
+              <tr>
+                <td>Hydrogen</td>
+                <td>1</td>
+                <td>1</td>
+                <td>_</td>
+                <td>1</td>
+              </tr>
+    
+              <tr>
+                <td>Helium</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+              </tr>
+    
+              <tr>
+                <td>Boron</td>
+                <td>5</td>
+                <td>5</td>
+                <td>6</td>
+                <td>5</td>
+              </tr>
+              
+              <tr>
+                <td>Oxygen</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+              </tr>
+    
+              <tr>
+                <td>Sodium</td>
+                <td>11</td>
+                <td>11</td>
+                <td>12</td>
+                <td>11</td>
+              </tr>
+            </table>
+            <br>
+        </div>
+        <div class = "bottompane">
+            <p> The maximum number of electrons that can be accomodated in the outermost shell is 8.</p>
+            <p> It has been observed that atoms with 8 electrons in their outermost shell are less chemically reactive.</p>
+            <p> The tendency of atoms to react and combine with other atoms to form molecules is explained as an attempt to maintain a fully-filled outermost shell. </p>
+            <p><u>The combining power of an element is known as its valency. The valency will tell us how the atoms of an element combine with atoms of other elements to form compounds.</u> </p>
+            
+            <p> Atoms of most elements cannot exist independently, so they combine with other atoms to form molecules and ions. Head on over to the next page to learn more about molecules.</p>
+            <div class = "flex-container">
+                <div>
+                  <object data = "arrow_animated.svg" type = "image/svg+xml" width = "100" height = "100"></object>
+                </div>
+                <div>
+                  <a href = "molecules.html">Molecules</a>
+                </div>
+                </div>    
+        </div>
+    </div>
+</body>
+</html>
